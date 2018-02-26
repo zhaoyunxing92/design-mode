@@ -4,7 +4,7 @@ package com.sunny.observer;
  * @author sunny
  * @className Client
  * @date 2018-02-26 15:03
- * @description:
+ * @description: 测试
  */
 public class Client {
     public static void main(String[] args) {

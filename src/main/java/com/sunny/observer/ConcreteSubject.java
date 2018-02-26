@@ -17,18 +17,13 @@ public class ConcreteSubject implements Subject {
     private List<Observer> observers;
 
 
-    public ConcreteSubject() {
+    ConcreteSubject() {
         observers = new ArrayList<Observer>();
     }
 
-    public String getMessage() {
+    String getMessage() {
         return message;
     }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
     /**
      * 添加观察者
      *
@@ -61,7 +56,7 @@ public class ConcreteSubject implements Subject {
         }
     }
 
-    public void setInfomation(String msg) {
+    void setInfomation(String msg) {
         this.message = msg;
         System.out.println("服务更新消息： " + msg);
         //消息更新，通知所有观察者

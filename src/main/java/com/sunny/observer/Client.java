@@ -30,5 +30,18 @@ public class Client {
         concreteSubject.removeObserver(wang);
 
         concreteSubject.setInfomation("wang 已经删除，大家注意！");
+
+        // jdk的观察者
+        System.out.println("-------------------  jdk 自带的实现  ---------------------------");
+        ConcreteWeatherSubject concreteWeatherSubject = new ConcreteWeatherSubject();
+        ConcreteWeatherObserver zhang1 = new ConcreteWeatherObserver("张三");
+        ConcreteWeatherObserver lisi1 = new ConcreteWeatherObserver("李四");
+
+        concreteWeatherSubject.addObserver(zhang1);
+        concreteWeatherSubject.addObserver(lisi1);
+
+        concreteWeatherSubject.setContent("jdk 的观察者");
+
+
     }
 }

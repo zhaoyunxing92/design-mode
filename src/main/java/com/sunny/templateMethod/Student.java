@@ -7,6 +7,7 @@ package com.sunny.templateMethod;
  * @description:
  */
 public class Student extends AbstractPerson {
+
     /**
      * 穿衣服
      */
@@ -31,4 +32,5 @@ public class Student extends AbstractPerson {
     protected void takeThings() {
         System.out.println("背书包，带上家庭作业和红领巾");
     }
+    
 }

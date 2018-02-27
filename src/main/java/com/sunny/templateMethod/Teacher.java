@@ -7,6 +7,7 @@ package com.sunny.templateMethod;
  * @description:
  */
 public class Teacher extends AbstractPerson {
+
     /**
      * 穿衣服
      */
@@ -30,4 +31,10 @@ public class Teacher extends AbstractPerson {
     protected void takeThings() {
         System.out.println("带上昨晚准备的考卷");
     }
+
+    @Override
+    protected boolean isHasDrive() {
+        return true;
+    }
+
 }

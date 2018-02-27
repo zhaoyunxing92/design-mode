@@ -14,4 +14,4 @@ java中的设计模式
 
 [√] [模板方法模式](./src/main/java/com/sunny/templateMethod/readme.md)
 
-[√] [责任链模式](./src/main/java/com/sunny/chain/readme.md)
+[√] [工厂模式](./src/main/java/com/sunny/factory/readme.md)

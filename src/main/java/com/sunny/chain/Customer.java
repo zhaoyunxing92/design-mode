@@ -1,6 +1,7 @@
 package com.sunny.chain;
 
 import com.sunny.chain.handler.PriceHandler;
+import com.sunny.chain.handler.PriceHandlerFactory;
 
 /**
  * @author sunny
@@ -13,7 +14,7 @@ public class Customer {
 
     public static void main(String[] args) {
         Customer customer = new Customer();
-        customer.setPriceHandler(PriceHandler.createPriceHandler());
+        customer.setPriceHandler(PriceHandlerFactory.createPriceHandler());
 
         //发起折扣请求
         customer.requestDiscount((float) 0.22);

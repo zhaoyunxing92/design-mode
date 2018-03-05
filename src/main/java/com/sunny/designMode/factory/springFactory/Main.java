@@ -26,13 +26,15 @@ public class Main {
             System.out.println("vehicleTypeName = " + vehicleTypeName);
             Moveable moveable = (Moveable) object;
             moveable.run();
+            System.out.println("===========使用配置文件加载bean============");
+            //使用配置文件加载bean
+            BeanFactory beanFactory = new ClassPathXmlApplicationContext("applicationContext.xml");
+            moveable = (Moveable) beanFactory.getBean("car");
+            moveable.run();
+
         } catch (IOException e) {
             System.out.println("读取文件异常：" + e);
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (IllegalAccessException | InstantiationException | ClassNotFoundException e) {
             e.printStackTrace();
         }
 

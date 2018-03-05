@@ -7,6 +7,28 @@
     <groupId>com.sunny</groupId>
     <artifactId>design-mode</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <jdom.version>1.0</jdom.version>
+        <jaxen.version>1.1.1</jaxen.version>
+    </properties>
+
+    <dependencies>
+        <!--解析xml jdom-->
+        <dependency>
+            <groupId>jdom</groupId>
+            <artifactId>jdom</artifactId>
+            <version>${jdom.version}</version>
+        </dependency>
+        <!--XPath 必须的包-->
+        <dependency>
+            <groupId>jaxen</groupId>
+            <artifactId>jaxen</artifactId>
+            <version>${jaxen.version}</version>
+        </dependency>
+
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>

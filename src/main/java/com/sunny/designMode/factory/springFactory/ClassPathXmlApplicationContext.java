@@ -40,15 +40,7 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
                 container.put(id, object);
             }
 
-        } catch (JDOMException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (JDOMException | IOException | IllegalAccessException | InstantiationException | ClassNotFoundException e) {
             e.printStackTrace();
         }
 

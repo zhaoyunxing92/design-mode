@@ -10,10 +10,10 @@ java中的设计模式
 
 [×] 单例模式
 
-[√] [观察者模式](src/main/java/com/sunny/designMode/observer/readme.md)
+[√] [观察者模式](src/main/java/com/sunny/design/mode/observer/readme.md)
 
-[√] [模板方法模式](src/main/java/com/sunny/designMode/templateMethod/readme.md)
+[√] [模板方法模式](src/main/java/com/sunny/design/mode/templateMethod/readme.md)
 
-[√] [工厂模式](src/main/java/com/sunny/designMode/factory/readme.md)
+[√] [工厂模式](src/main/java/com/sunny/design/mode/factory/readme.md)
 
-[√] [责任链模式](src/main/java/com/sunny/designMode/chain/readme.md)
+[√] [责任链模式](src/main/java/com/sunny/design/mode/chain/readme.md)

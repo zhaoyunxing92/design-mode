@@ -6,7 +6,7 @@ java中的23中设计模式和6大原则
 
 * 开闭原则(Open-Close Principle（OCP）)
   
-  * 分 地方
+  * 
 
 
 ## 设计模式

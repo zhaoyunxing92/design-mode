@@ -1,4 +1,4 @@
-package com.sunny.design.mode.factory.springFactory;
+package com.sunny.design.mode.factory.spring;
 
 import java.io.IOException;
 import java.util.Properties;

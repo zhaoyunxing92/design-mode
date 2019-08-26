@@ -1,4 +1,4 @@
-package com.sunny.design.mode.factory.springFactory;
+package com.sunny.design.mode.factory.statical;
 
 /**
  * @author sunny

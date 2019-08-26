@@ -1,4 +1,4 @@
-package com.sunny.design.mode.factory.abstractFactory.abstraction;
+package com.sunny.design.mode.factory.abstraction.abstraction;
 
 /**
  * @author sunny

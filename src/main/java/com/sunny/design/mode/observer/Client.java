@@ -23,13 +23,13 @@ public class Client {
         concreteSubject.registerObserver(lisi);
         concreteSubject.registerObserver(wang);
 
-        concreteSubject.setInfomation("hello world！");
+        concreteSubject.setInformation("hello world！");
 
         System.out.println("----------------------------------------------");
          /*移除wang 观察者*/
         concreteSubject.removeObserver(wang);
 
-        concreteSubject.setInfomation("wang 已经删除，大家注意！");
+        concreteSubject.setInformation("wang 已经删除，大家注意！");
 
         // jdk的观察者
         System.out.println("-------------------  jdk 自带的实现  ---------------------------");

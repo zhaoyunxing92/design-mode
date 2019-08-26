@@ -56,7 +56,7 @@ public class ConcreteSubject implements Subject {
         }
     }
 
-    void setInfomation(String msg) {
+    void setInformation(String msg) {
         this.message = msg;
         System.out.println("服务更新消息： " + msg);
         //消息更新，通知所有观察者

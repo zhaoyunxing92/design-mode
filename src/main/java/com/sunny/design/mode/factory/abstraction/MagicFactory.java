@@ -1,9 +1,9 @@
-package com.sunny.design.mode.factory.abstractFactory;
+package com.sunny.design.mode.factory.abstraction;
 
-import com.sunny.design.mode.factory.abstractFactory.abstraction.AbstractFactory;
-import com.sunny.design.mode.factory.abstractFactory.abstraction.Food;
-import com.sunny.design.mode.factory.abstractFactory.abstraction.Vehicle;
-import com.sunny.design.mode.factory.abstractFactory.abstraction.Weapon;
+import com.sunny.design.mode.factory.abstraction.abstraction.AbstractFactory;
+import com.sunny.design.mode.factory.abstraction.abstraction.Food;
+import com.sunny.design.mode.factory.abstraction.abstraction.Vehicle;
+import com.sunny.design.mode.factory.abstraction.abstraction.Weapon;
 
 /**
  * @author sunny

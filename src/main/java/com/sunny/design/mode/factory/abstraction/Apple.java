@@ -1,6 +1,6 @@
-package com.sunny.design.mode.factory.abstractFactory;
+package com.sunny.design.mode.factory.abstraction;
 
-import com.sunny.design.mode.factory.abstractFactory.abstraction.Food;
+import com.sunny.design.mode.factory.abstraction.abstraction.Food;
 
 /**
  * @author sunny

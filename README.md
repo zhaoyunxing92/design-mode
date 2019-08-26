@@ -4,11 +4,30 @@ java中的23中设计模式和6大原则
 
 ## 6大原则
 
-* 开闭原则(Open-Close Principle（OCP）)
+* 开闭原则(Open Close Principle [OCP])
   
-  * 
+  对扩展开放,对修改关闭.意思就是尽量用继承或组合的方式来扩展类的功能,而非直接修改类代码
 
+* 单一职责原则 (Single Responsibility Principle [SRP])
+  
+  不同的类具备不同的职责
 
+* 里式代替原则(Liskov Substitution Principle [LSP])
+ 
+  父类可以被子类替换,反之不一定成立.大概意思是子类在继承父类时务必重写父类所有方法
+  
+* 最少知识原则(Least Knowledge Principle [LKP])
+
+  尽量减少对象之间的交互,从而减少类之间的耦合.低耦合、高内聚
+
+* 接口隔离原则(Interface Segregation Principle [ISP])
+
+  不要暴露没有实际意义的接口
+  
+* 依赖倒置原则(Dependence Inversion Principle [DIP])
+
+  高层模块不应该依赖底层模块,应该依赖抽象.抽象不应该依赖细节,细节不应该依赖抽象.应该面向接口编程,不应该面向实现类编程
+  
 ## 设计模式
 
 ### 总体来说设计模式分为三大类

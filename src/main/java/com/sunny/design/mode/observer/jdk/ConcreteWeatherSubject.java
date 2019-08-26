@@ -1,4 +1,4 @@
-package com.sunny.design.mode.observer;
+package com.sunny.design.mode.observer.jdk;
 
 import java.util.Observable;
 

@@ -25,4 +25,11 @@ public interface Subject {
      * 通知观察者
      */
     void notifyObserver();
+
+    /**
+     * 获取信息
+     *
+     * @return String
+     */
+    String getMessage();
 }

@@ -1,4 +1,7 @@
-package com.sunny.design.mode.observer;
+package com.sunny.design.mode.observer.impl;
+
+import com.sunny.design.mode.observer.Observer;
+import com.sunny.design.mode.observer.Subject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,13 +20,15 @@ public class ConcreteSubject implements Subject {
     private List<Observer> observers;
 
 
-    ConcreteSubject() {
-        observers = new ArrayList<Observer>();
+    public ConcreteSubject() {
+        observers = new ArrayList<>();
     }
 
-    String getMessage() {
+    @Override
+    public String getMessage() {
         return message;
     }
+
     /**
      * 添加观察者
      *
@@ -56,7 +61,7 @@ public class ConcreteSubject implements Subject {
         }
     }
 
-    void setInformation(String msg) {
+    public void setInformation(String msg) {
         this.message = msg;
         System.out.println("服务更新消息： " + msg);
         //消息更新，通知所有观察者

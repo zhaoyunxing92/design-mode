@@ -1,4 +1,7 @@
-package com.sunny.design.mode.observer;
+package com.sunny.design.mode.observer.impl;
+
+import com.sunny.design.mode.observer.Observer;
+import com.sunny.design.mode.observer.Subject;
 
 /**
  * @author sunny
@@ -17,7 +20,7 @@ public class ConcreteObserver implements Observer {
     private String observerName;
 
 
-    ConcreteObserver(String observerName) {
+    public ConcreteObserver(String observerName) {
         this.observerName = observerName;
     }
 
@@ -28,11 +31,11 @@ public class ConcreteObserver implements Observer {
      */
     @Override
     public void update(Subject subject) {
-        this.message = ((ConcreteSubject) subject).getMessage();
+        this.message = subject.getMessage();
         read();
     }
 
-    public void read() {
+    private void read() {
         System.out.println(observerName + " 收到消息: " + message);
     }
 }
